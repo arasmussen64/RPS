@@ -1,0 +1,39 @@
+NOTES
+
+#select image for user choice
+
+click event listener for object - button being clicked 
+
+button click is linked to an array object for user choice
+
+computer choice random - #Array [rock, paper, scissors] random.(array position)
+
+
+user choice is compared to computer choice
+
+        if cpu_choice = usr_choice 
+        then "Tie"
+
+        else if cpu_choice = rock && usr_choice = paper
+        then usr.win = false
+
+        else if cpu_choice = rock && usr_choice = scissors
+        then usr.win = false
+
+        else if cpu_choice = paper && usr_choice = rock
+        tbhen usr.win = true
+
+        else if cpu_choice = paper && usr_choice = scissors
+        then usr.win = true
+
+        else if cpu_choice = scissors && usr_choice = paper
+        then usr.win = false
+
+        else if cpu_choice = scissors && usr_choice = rock
+        then usr.win = true
+
+
+        end
+
+display usr_choice and cpu_choice on the screen
+Display the winner

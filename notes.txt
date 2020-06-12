@@ -41,3 +41,9 @@ Display the winner
 function cl(input) {
     console.log(input)
 }
+
+##TODO BONUS
+
+-tally score
+-click on pictures
+-display computer.choice picture

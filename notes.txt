@@ -37,3 +37,7 @@ user choice is compared to computer choice
 
 display usr_choice and cpu_choice on the screen
 Display the winner
+
+function cl(input) {
+    console.log(input)
+}

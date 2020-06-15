@@ -10,3 +10,22 @@ img {
 body {
     text-align: center;
 }
+
+.bottom-half {
+    background-color: #2851b8;
+    font-weight: bolder;
+}
+
+.bottom-half > p {
+    color: white;
+    font-weight: bolder;
+}
+
+.bottom-half > span {
+    color: white;
+    font-weight: bolder;
+}
+
+div > a {
+    padding: 50px;
+}
